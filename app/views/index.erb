@@ -8,7 +8,7 @@
     <h1>Receipes</h1>
     <% @recipes.each() do |recipe| %>
       <h2><%=recipe.name%></h2>
-      <h4><a href="/recipes/</h4>
+      <h4><a href="<%= /recipes/#{@recipes.id}</h4>
     <% end %>
 
   </body>
