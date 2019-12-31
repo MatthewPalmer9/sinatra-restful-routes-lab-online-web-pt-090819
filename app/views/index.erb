@@ -8,6 +8,7 @@
     <h1>Receipes</h1>
     <% @recipes.each() do |recipe| %>
       <h2><%=recipe.name%></h2>
+      <% recipe_link = 
       <p><a href="<%=/recipes/#{@recipe.id}%>"></p>
     <% end %>
 
