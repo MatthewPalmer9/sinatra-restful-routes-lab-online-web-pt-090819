@@ -10,6 +10,7 @@ class ApplicationController < Sinatra::Base
   end
 
   get 'recipes/:id' do
+    @recipe = Recipe.find
     erb :show
   end
 
